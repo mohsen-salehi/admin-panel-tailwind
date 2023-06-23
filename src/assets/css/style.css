@@ -1,0 +1,16 @@
+@import "./variable.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  background-color: #263238;
+}
+.scroll-bar::-webkit-scrollbar {
+  background-color: #263238;
+  width: 10px;
+  border-radius: 8px;
+}
+.scroll-bar::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 8px;
+}

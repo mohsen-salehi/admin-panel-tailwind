@@ -1,0 +1,10 @@
+:root {
+  --backgound-aside: #37474f;
+  --text-color: #607d8b;
+}
+.bg-aside {
+  background-color: var(--backgound-aside) !important;
+}
+.text-aside-color {
+  color: var(--text-color) !important;
+}
